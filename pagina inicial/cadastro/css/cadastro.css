@@ -1,0 +1,30 @@
+*{
+    color: rgb(83, 43, 16);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #A0AA60;
+    display: flex;
+}
+.formulario{
+    font-size: 23px;
+    padding: 10px;
+    background-color: #D8E48C;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    width: 380px;
+}
+.cadastro{
+    text-align: justify;
+}
+#botao{
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color:rgb(83, 43, 16);
+    color: #e7e7e7;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
