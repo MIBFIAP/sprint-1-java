@@ -22,12 +22,14 @@ body {
     cursor: pointer;
     font-size: 16px;
     transition: 0.4s;
+    border-radius: 20px;
 }
 #botao1:hover{
     background-color: #457D3E;
     color: #e7e2de;
     cursor: pointer;
     transform: scale(1.1);
+    border-radius: 20px;
 }
 a{
     text-decoration: none;
@@ -38,6 +40,7 @@ a:hover{
     color: #e7e2de;
     cursor: pointer;
     transform: scale(1.1);
+    border-radius: 20px;
 }
 
 /** Card **/
@@ -92,6 +95,7 @@ p{
     cursor: pointer;
     font-size: 16px;
     transition: 0.4s;
+    border-radius: 20px;
 }
 
 #read_button:hover {
@@ -99,6 +103,7 @@ p{
     color: #e7e2de;
     cursor: pointer;
     transform: scale(1.1);
+    border-radius: 20px;
 }
 
 /** Active **/

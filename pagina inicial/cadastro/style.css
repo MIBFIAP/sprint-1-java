@@ -38,11 +38,12 @@ button {
   border: none;
   cursor: pointer;
   font-size: 27px;
-  font-weight: bolder
+  font-weight: bolder;
+  border-radius: 20px;
+  transition: 0.4s;
 }
 
 button:hover {
-  background-color: transparent;
   transition-timing-function: 0.2 all-in-ease;
-  color: #e7e2de;
+  transform: scale(1.1);
 }
