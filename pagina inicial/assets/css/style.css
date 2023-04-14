@@ -1,14 +1,14 @@
 *
 body {
-    background-color: #A0AA60;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    background-color:#e7e2de;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff
 }
 .menu{
     font-size: 14px;
     font-weight: bold;
-    color: rgb(83, 43, 16);
     padding: 25px;
-    background-color: #D8E48C;
+    background-color: #6b9e66;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
     width: auto;
 }
@@ -17,38 +17,45 @@ body {
     padding: 10px;
     border-radius: 2px;
     margin-top: 15px;
-    background-color:rgb(83, 43, 16);
+    background-color:#6b9e66;
     font-weight: bold;
     cursor: pointer;
     font-size: 16px;
+    transition: 0.4s;
 }
 #botao1:hover{
-    background-color: transparent;
+    background-color: #457D3E;
+    color: #e7e2de;
     cursor: pointer;
+    transform: scale(1.1);
 }
 a{
     text-decoration: none;
     color: #e7e7e7;
 }
 a:hover{
-    color:rgb(83, 43, 16)
+    background-color: #457D3E;
+    color: #e7e2de;
+    cursor: pointer;
+    transform: scale(1.1);
 }
+
 /** Card **/
 .card {
     flex-direction: column;
     justify-content: center;
-    width: 300px;
+    width: 500px;
     padding: 25px;
-    background-color: #D8E48C;
+    background-color: #6b9e66;
     text-align: justify;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
-    position: relative;
 }
 /** Content **/
 .content {
     height: 215px;
     overflow: hidden;
-    position: relative;
+    position: flex;
+    color: #ffffff
 }
 
 .content::before {
@@ -65,9 +72,12 @@ a:hover{
     font-size: 20px;
     position: relative;
 }
-
+p{
+    font-size: 20px;
+    line-height: 1.5;
+}
 .content p {
-    color:rgb(83, 43, 16);
+    color:black;
 }
 
 /** Botão**/
@@ -76,17 +86,19 @@ a:hover{
     padding: 10px;
     border-radius: 2px;
     margin-top: 15px;
-    background-color:rgb(83, 43, 16);
-    color: #e7e7e7;
+    background-color:#6b9e66;
+    color: #e7e2de;
     font-weight: bold;
     cursor: pointer;
     font-size: 16px;
+    transition: 0.4s;
 }
 
 #read_button:hover {
-    background-color: transparent;
-    color:rgb(83, 43, 16);
+    background-color: #457D3E;
+    color: #e7e2de;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 /** Active **/
